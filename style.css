@@ -1,0 +1,44 @@
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.folder{
+    margin: 0px;
+    padding: 0px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    /* background-color: ; */
+}
+.folder > p {
+    margin: 0px;
+}
+.folderContainer{
+    margin: 0px;
+    padding: 0px;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    /* background-color: ; */
+}
+.folderContainer:hover .folderContents{
+    display: block;
+}
+.folderContents{
+    margin: 0px;
+    margin-left: 15px;
+    padding: 0px;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+    display:none;
+}
+.file{
+    margin: 0px;
+    padding: 0px;
+    border-width: 1px;
+    /* border-color: green; */
+    border-style: solid;
+}
+.file > p{
+    margin: 0px;
+}
